@@ -1,6 +1,6 @@
 #!/bin/bash
 # Verificar si el script se está ejecutando desde el directorio correcto
-if [ "$(basename "$PWD")" != "wso2am" ]; then
+if [ "$(basename "$PWD")" != "uw2" ]; then
     echo "El directorio actual no es wso2am. Terminando la ejecución del script."
     exit 1
 fi
